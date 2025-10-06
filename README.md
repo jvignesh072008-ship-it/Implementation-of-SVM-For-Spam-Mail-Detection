@@ -9,7 +9,7 @@ To write a program to implement the SVM For Spam Mail Detection.
 
 ## Algorithm
 
-1. Data Loading and Preprocessing: Import the spam dataset, select relevant columns (label and message), and convert categorical labels ("ham" as 0 and "spam" as 1) into numerical values for model training.
+1.Data Loading and Preprocessing: Import the spam dataset, select relevant columns (label and message), and convert categorical labels ("ham" as 0 and "spam" as 1) into numerical values for model training.
 
 2.Text Vectorization: Convert the raw text messages into numerical feature vectors using a CountVectorizer that removes English stop words, enabling the model to interpret text input as numeric data.
 
